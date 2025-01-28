@@ -88,10 +88,9 @@ background-color:#Cfb53b;
 
     .btnbtn
 {
-  position:absolute;
+ 
   color: #543A14;
-  bottom: 20px;
-  margin: 20px;
+ 
   transition: all 0.4s ease-in-out;
   
   
@@ -99,7 +98,7 @@ background-color:#Cfb53b;
   border-radius: 20px;
   padding: 10px;
   font-size: 20px;
-  left: 60%;
+
   font-weight: bolder;
 }
 .btnbtn:hover

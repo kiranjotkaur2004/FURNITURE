@@ -1,72 +1,74 @@
-.navcolor
-{background-color: white;
-    height: 85px;
-    color: #6F4E37;
-
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;    
-}
-
-.navlogosize:hover
-{
-    border: 2px solid #Cfb53b;
-}
-.navlogosize
-{
-
- width:25%;
- height: 20%;
- border: 2px solid transparent;
- border-radius: 50%;
- transition: border 0.3s ease;
-
- 
-}
-.toggle
-{
-    background-color:#6F4E37;
-    color: #ffff;
-}
-
-
-.navlist::after{
-     
-    content: '';
-    background-color:#Cfb53b;
-    width: 0%;
-    height: 3px;
-    display: block;
-    margin-left: 4px;  
-    position:absolute;
-    color: #Cfb53b;
+.but {
+    background-color: #34b7a7;
+  }
+  .color {
+    background-color: #e9e8e6;
     
-    transition: all 200ms ease-in-out;
-}
-
-.navlist:hover.navlist:hover::after{
-    width: 2%;
-}
-.icons
-{
-    
-    font-weight: bolder;
+  }
+  .col
+  {
+    color: #7B3F00;
+    border: 2px solid transparent;
+    border-radius: 25%;
+  }
+  .col:hover
+  {
+    border: 2px solid #F9A602;
+  }
+  .icons
+  {
     display: flex;
-  justify-content:space-evenly;
-  width: 15%;
+    justify-content: space-between;
     align-items: center;
-    
-}
-.icon
-{
-    color: #6F4E37;
-    font-size: larger;
-    font-weight: bolder;
-   
-}
-.icon:hover
-{
-    color:#Cfb53b;
-}
-.listitems
-{
-    margin-left: -15%;
-}
+    margin-left: 5px;
+    color: #7B3F00;
+
+  }
+  .icons:hover {
+    color:#F9A602;
+    transition: ease-in-out;
+  }
+  
+  .anc {
+    text-decoration: none;
+    color: #F9A602;
+  }
+  .but:hover {
+    background-color: #21e2c1;
+  }
+  
+  .menu {
+    position: relative;
+  }
+  
+  .menu::after {
+    content: "";
+    background-color: #F9A602;
+    width: 0;
+    height: 2px;
+    display: block;
+    position: absolute;
+    bottom: 0; 
+    left: 0; 
+    transition: width 200ms ease-in-out; 
+    margin-left: 30px;
+  }
+  
+  .menu:hover::after {
+    width: 40%;
+    margin-left: 30px;
+  }
+  
+  .menu1 {
+    position: relative;
+  }
+  .menu1::after {
+    content: "";
+    background-color: #34b7a7;
+    display: block;
+    width: 40%;
+    height: 2px;
+    margin: 4px;
+    position: absolute;
+  }
+  
