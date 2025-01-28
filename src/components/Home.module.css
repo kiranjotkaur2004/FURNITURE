@@ -1,0 +1,110 @@
+.title
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#7B3F00 ;
+    width: 100%;
+}
+.btn
+{
+  position:absolute;
+  color: #Cfb53b;
+  bottom: 20px;
+  margin: 20px;
+  transition: all 0.4s ease-in-out;
+  
+  
+  border: 1px transparent;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 20px;
+  left: 20%;
+  font-weight: bolder;
+}
+.btn:hover
+{
+color: #ffff;
+background-color:#Cfb53b;
+
+}
+
+
+ 
+  
+  
+  .marquetext
+  {
+    display: inline-block;
+   
+    white-space: nowrap;
+    animation: marquee 30s  linear infinite;
+  }
+  
+  
+
+  @keyframes marquee {
+    0%
+    {
+        transform: translateX(100%);
+    }
+    100% 
+    {
+        transform: translateX(-100%);
+    }
+    
+  }
+
+ 
+
+  .card
+  {
+     
+      margin-top: 100px;
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    border: 1px transparent;
+  }
+  
+  .cards
+  {
+      margin: 20px;
+  padding: auto;
+     
+    
+  }
+  .card
+  {
+      transition: transform 1s ease-in-out;
+    transform-style: preserve-3d;
+    
+  }
+  .cards:hover {
+      transform: rotateY(10deg) rotateX(10deg);
+    }
+
+    .btnbtn
+{
+  position:absolute;
+  color: #543A14;
+  bottom: 20px;
+  margin: 20px;
+  transition: all 0.4s ease-in-out;
+  
+  
+  border: 1px transparent;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 20px;
+  left: 60%;
+  font-weight: bolder;
+}
+.btnbtn:hover
+{
+color: #ffff;
+background-color: #543A14;
+
+}

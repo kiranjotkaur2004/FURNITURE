@@ -1,0 +1,72 @@
+.navcolor
+{background-color: white;
+    height: 85px;
+    color: #6F4E37;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;    
+}
+
+.navlogosize:hover
+{
+    border: 2px solid #Cfb53b;
+}
+.navlogosize
+{
+
+ width:25%;
+ height: 20%;
+ border: 2px solid transparent;
+ border-radius: 50%;
+ transition: border 0.3s ease;
+
+ 
+}
+.toggle
+{
+    background-color:#6F4E37;
+    color: #ffff;
+}
+
+
+.navlist::after{
+     
+    content: '';
+    background-color:#Cfb53b;
+    width: 0%;
+    height: 3px;
+    display: block;
+    margin-left: 4px;  
+    position:absolute;
+    color: #Cfb53b;
+    
+    transition: all 200ms ease-in-out;
+}
+
+.navlist:hover.navlist:hover::after{
+    width: 2%;
+}
+.icons
+{
+    
+    font-weight: bolder;
+    display: flex;
+  justify-content:space-evenly;
+  width: 15%;
+    align-items: center;
+    
+}
+.icon
+{
+    color: #6F4E37;
+    font-size: larger;
+    font-weight: bolder;
+   
+}
+.icon:hover
+{
+    color:#Cfb53b;
+}
+.listitems
+{
+    margin-left: -15%;
+}

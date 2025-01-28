@@ -1,0 +1,55 @@
+.card
+{
+   
+    margin-top: 100px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  border: 1px transparent;
+}
+
+
+.cards
+{
+    margin: 20px;
+
+   
+  
+}
+.card
+{
+    transition: transform 1s ease-in-out;
+  transform-style: preserve-3d;
+  
+}
+.cards:hover {
+    transform: rotateY(10deg) rotateX(10deg);
+  }
+.btn
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.cart
+{
+    background-color:#8888;
+    border: 1px transparent ;
+    border-radius: 20px;
+    padding: 8px;
+    font-size: 20px;
+    color: #ffff;
+    border-radius: 20px;
+    transition: transform 1s ease-in-out;
+    transform-style: preserve-3d;
+    
+}
+.cart:hover
+{background-color: #543A14;
+    color: #ffff;
+
+}

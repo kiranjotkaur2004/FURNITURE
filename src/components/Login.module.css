@@ -1,0 +1,25 @@
+.formlo {
+    display: flex;
+    flex-direction: column;
+   padding:100px 100px;
+    justify-content: center;
+   
+
+
+}
+.form
+{
+    border: 2px solid #Cfb53b;
+    color:#7B3F00 ;
+ background-color:#Cfb53b;
+ box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+}
+.lo
+{
+    background-color: aliceblue;
+}
+.lo:hover
+{
+    background-color: #7B3F00;
+    color: white;
+}

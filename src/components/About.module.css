@@ -1,0 +1,113 @@
+.btn
+{
+  position:absolute;
+  color: #543A14;
+  bottom: 20px;
+  margin: 20px;
+  transition: all 0.4s ease-in-out;
+  
+  
+  border: 1px transparent;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 20px;
+  
+  font-weight: bolder;
+}
+.contactus
+{background-color: #543A14;
+    color: #ffff;
+    padding: 4px;
+    border: 1px transparent;
+    border-radius: 20px;
+
+}
+.contactus:hover
+{background-color: #ffff;
+    color:#543A14;
+    border: 1px solid #ffff;
+
+}
+.btn:hover
+{
+color: #ffff;
+background-color: #543A14;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+
+}
+.card
+{
+   
+    margin-top: 100px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  border: 1px transparent;
+}
+.card-container {
+    perspective: 1500px;
+  }
+
+.cards
+{
+    margin: 20px;
+padding: auto;
+border: 2px solid  transparent;
+   
+  
+}
+.card
+{
+    transition: transform 1s ease-in-out;
+  transform-style: preserve-3d;
+  
+  
+ 
+}
+.cards:hover {
+    transform: rotateY(5deg) rotateX(5deg);
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+    border: #Cfb53b 2px solid;
+  }
+
+.cart
+{
+    background-color:#8888;
+    border: 1px transparent ;
+    border-radius: 20px;
+    padding: 8px;
+    font-size: 20px;
+    color: #ffff;
+    border-radius: 20px;
+    transition: transform 1s ease-in-out;
+    transform-style: preserve-3d;
+    
+    
+}
+.btnbtn
+{
+  position:absolute;
+  color: #543A14;
+  bottom: 20px;
+  margin: 20px;
+  transition: all 0.4s ease-in-out;
+  
+  
+  border: 1px transparent;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 20px;
+  left: 60%;
+  font-weight: bolder;
+}
+.btnbtn:hover
+{
+color: #ffff;
+background-color: #543A14;
+
+}
